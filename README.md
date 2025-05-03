@@ -1,80 +1,99 @@
 # SoftwareTesting
 This repository contains a structured manual testing suite for a software application. It includes a detailed Test Plan, comprehensive Test Cases, and reusable templates to support the manual QA process.
+---
 # 🧪 Manual Testing Project
 
-This repository provides a comprehensive manual testing framework for a sample software application. It includes a detailed **Test Plan**, modular **Test Cases**, and reusable **Templates** to support structured and consistent manual QA processes.
+A comprehensive manual testing project repository that contains a structured **Test Plan** and detailed **Test Cases** to ensure the quality, functionality, and reliability of the application under test (AUT).
 
----
-manual-testing/
-│
-├── TestPlan/
-│ └── Test_Plan_Document.docx # Full test planning document
-│
-├── TestCases/
-│ ├── Login_Test_Cases.xlsx # Login module test cases
-│ ├── Signup_Test_Cases.xlsx # Signup/Registration test cases
-│ └── ...
-│
-└── Templates/
-├── Test_Case_Template.xlsx # Reusable format for new test cases
-└── Test_Plan_Template.docx # Sample test plan structure
----
-## 📄 Contents
+## 📌 Table of Contents
 
-### 🔹 Test Plan
-A formal document outlining the testing strategy, scope, objectives, deliverables, environment setup, and timeline.
+- [Project Overview](#project-overview)
+- [Folder Structure](#folder-structure)
+- [Test Plan](#test-plan)
+- [Test Cases](#test-cases)
+- [How to Use](#how-to-use)
+- [Technologies & Tools](#technologies--tools)
+- [Contributing](#contributing)
+- [Contact](#contact)
 
+## 📋 Project Overview
+
+The goal of this project is to define, document, and execute a set of manual tests to validate the core functionalities and non-functional requirements of the application.  
+This repository serves as a resource for:
+
+- QA Engineers
+- Developers
+- Project Managers
+- Stakeholders
+
+## 📝 Test Plan
+
+The **Test Plan** outlines the testing strategy, scope, objectives, resources, schedule, and deliverables.
+
+📄 **Location:** `/Test_Plan/TestPlan_Document.pdf`
+
+Contents of the Test Plan:
 - Scope of Testing
-- Testing Types (Functional, UI, Smoke)
-- Test Schedule
-- Resource Allocation
-- Entry & Exit Criteria
+- Test Objectives
+- Resources and Roles
+- Test Environment
+- Test Deliverables
+- Entry and Exit Criteria
 - Risks and Mitigation
 
-### 🔹 Test Cases
-Detailed test cases covering various modules and functionalities of the application.
+## ✅ Test Cases
 
-- Positive and Negative Scenarios
-- Test Data
-- Expected Results
-- Priority and Severity
-- Pass/Fail Status
+The **Test Cases** provide detailed step-by-step actions to validate the application’s features and functionality.
 
-### 🔹 Templates
-Generic templates for creating new test cases and test plans.
+📂 **Location:** `/Test_Cases/`
 
----
+Test Case Categories:
+- **Functional Test Cases**  
+- **Regression Test Cases**  
+- **UI Test Cases**  
+- **Smoke Test Cases**  
+
+Each test case includes:
+- Test Case ID  
+- Title/Description  
+- Preconditions  
+- Test Steps  
+- Expected Result  
+- Actual Result  
+- Status (Pass/Fail)
 
 ## 🚀 How to Use
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/manual-testing.git
-Open the TestPlan folder to review or customize the test strategy.
+   git clone https://github.com/yourusername/manual-testing-project.git
+Navigate through the Test Plan and Test Cases folders.
 
-Navigate to TestCases and use the .xlsx files to execute or add test cases for each module.
+Execute the relevant test cases as per the module or feature under test.
 
-Use templates in the Templates/ folder to create consistent new documentation.
+Document results and report any defects using your team’s bug tracking tool.
 
-🛠 Tools Used
-Microsoft Word / Google Docs (for Test Plan)
+🛠️ Technologies & Tools
+Documentation: MS Word, Excel (or Google Docs/Sheets)
 
-Microsoft Excel / Google Sheets (for Test Cases)
+Bug Tracking: JIRA, Bugzilla (optional)
 
-GitHub (for version control and collaboration)
+Test Management: TestRail, Zephyr (optional)
 
-👥 Contributors
-Your Name – Pranali Patil
+🤝 Contributing
+Contributions, suggestions, and improvements are welcome!
 
-Additional Contributors (if any)
+Fork the repository
 
-📌 License
-This project is licensed under the MIT License.
+Create a new branch (git checkout -b feature-branch)
 
-yaml
-Copy
-Edit
+Commit your changes (git commit -m 'Add new test cases')
 
----
+Push to the branch (git push origin feature-branch)
 
+Open a Pull Request
 
+📞 Contact
+For queries, suggestions, or collaborations:
+
+Pranali Patil
